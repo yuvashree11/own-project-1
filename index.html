@@ -1,0 +1,93 @@
+<!-- index.html (Homepage) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMIL MOVIES</title>
+    <style>
+
+        body  {
+            background-image: url('https://i.pinimg.com/564x/4b/fc/65/4bfc655d8840cfc67b35567d767cd09f.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+           
+        }
+        /* CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+           
+        }
+        h1 {
+            color: #333;
+        }
+        #main-image {
+            width: 300px;
+            height: auto;
+            margin: 20px;
+            margin-top: -10px ;
+
+           
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        .center img {
+            max-width: 100%; 
+            max-height: 100%; 
+        }
+        p{
+            font-size: 50;
+        color: black
+       
+    }
+
+    .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right: 300px;
+ 
+  
+    }
+
+
+.button1 {background-color: #001eff;} /* Blue */
+
+    </style>
+</head>
+<body>
+    <h1>TAMIL MOVIE WORLD</h1>
+
+    <p><b>Tamil cinema,<br> also known as Kollywood,<br> is the segment of Indian cinema,<br> dedicated to the production of motion pictures in the Tamil language widely spoken in the state of Tamil Nadu.<br> It is nicknamed Kollywood,<br>a portmanteau of the names Kodambakkam,<br> a neighbourhood in Chennai,<br> and Hollywood.[<br>The first Tamil silent film,<br> Keechaka Vadham,<br> was directed by R. Nataraja Mudaliar in 1918.<br> The first Tamil talking feature film, Kalidas,<br> a multilingual directed by H. M. Reddy was released on 31 October 1931,<br> less than seven months after India's first talking motion picture Alam Ara.</b></p>
+   
+    <img src="./assets/romantic drama.avif" alt="Main Image" id="main-image"/>
+    <button class="button button1" onclick="redirectToAnotherPage1()">WANT TO WATCH TAMIL MOVES CLICK HERE</button>
+
+    <!-- JavaScript for redirecting to another page -->
+  
+    <script>
+        function redirectToAnotherPage1() {
+            window.location.href = "TamilMovies.html";
+          
+        }
+       
+    </script>
+        
+
+</body>
+</html>
